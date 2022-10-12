@@ -13,7 +13,11 @@
         tools:layout="@layout/fragment_home">
         <action
             android:id="@+id/action_homeFragment_to_detailsFragment"
-            app:destination="@id/detailsFragment" />
+            app:destination="@id/detailsFragment"
+            app:enterAnim="@anim/fragment_slide_in_right"
+            app:exitAnim="@anim/fragment_slide_out_left"
+            app:popEnterAnim="@anim/fragment_fade_enter"
+            app:popExitAnim="@anim/fragment_fade_exit" />
     </fragment>
 
     <fragment

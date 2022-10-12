@@ -26,8 +26,9 @@ class HomeFragment : BaseFragment(){
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         navController.navigateUp()
-        val homeAdapter = HomeFragmentAdapter {
-
+        val homeAdapter = HomeFragmentAdapter { attractionId ->
+            val navDirections = HomeFragmentDirections.actionHomeFragmentToDetailsFragment(attractionId)
+            navController.navigate(navDirections)
         }
 
         binding.recyclerView.adapter = homeAdapter

@@ -8,7 +8,7 @@ import com.ksusha.travely.data.Attraction
 import com.ksusha.travely.databinding.ViewHolderAttractionBinding
 import com.squareup.picasso.Picasso
 
-class HomeFragmentAdapter(private val onClickedCallback: () -> Unit) : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
+class HomeFragmentAdapter(private val onClickedCallback: (String) -> Unit) : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
 
     private val attractions = ArrayList<Attraction>()
 
@@ -35,12 +35,12 @@ class HomeFragmentAdapter(private val onClickedCallback: () -> Unit) : RecyclerV
 
         private val binding = ViewHolderAttractionBinding.bind(itemView)
 
-        fun onBind(attraction: Attraction, onClicked: () -> Unit) = with(binding){
+        fun onBind(attraction: Attraction, onClicked: (String) -> Unit) = with(binding){
             titleTextView.text = attraction.title
             Picasso.get().load(attraction.image_url).into(headerImageView)
             monthsToVisitTextView.text = attraction.months_to_visit
             item.setOnClickListener {
-                onClicked()
+                onClicked(attraction.id)
             }
         }
     }
