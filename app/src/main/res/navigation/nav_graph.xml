@@ -9,7 +9,7 @@
     <fragment
         android:id="@+id/homeFragment"
         android:name="com.ksusha.travely.ui.fragments.home.HomeFragment"
-        android:label="HomeFragment"
+        android:label="Travely Home"
         tools:layout="@layout/fragment_home">
         <action
             android:id="@+id/action_homeFragment_to_detailsFragment"
@@ -23,8 +23,9 @@
     <fragment
         android:id="@+id/detailsFragment"
         android:name="com.ksusha.travely.ui.fragments.DetailsFragment"
-        android:label="DetailsFragment"
+        android:label="Details"
         tools:layout="@layout/fragment_details">
+        <deepLink app:uri="https://www.google.com"/>
         <argument
             android:name="attractionId"
             app:argType="string" />

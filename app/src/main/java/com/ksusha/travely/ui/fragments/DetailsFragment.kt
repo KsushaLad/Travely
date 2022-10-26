@@ -1,11 +1,11 @@
 package com.ksusha.travely.ui.fragments
 
+import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
-import android.view.LayoutInflater
-import android.view.View
-import android.view.ViewGroup
-import androidx.fragment.app.Fragment
+import android.view.*
 import androidx.navigation.fragment.navArgs
+import com.ksusha.travely.R
 import com.ksusha.travely.data.Attraction
 import com.ksusha.travely.databinding.FragmentDetailsBinding
 import com.squareup.picasso.Picasso
@@ -28,6 +28,27 @@ class DetailsFragment : BaseFragment() {
         return binding.root
     }
 
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setHasOptionsMenu(true)
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
+        inflater.inflate(R.menu.menu_attraction_details, menu)
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        return when(item.itemId){
+            R.id.menuItemLocation -> {
+                val intentUri = Uri.parse("geo:${attraction.location.latitude},${attraction.location.longitude}?z=9&q=${attraction.title}")
+                val intent = Intent(Intent.ACTION_VIEW, intentUri)
+                intent.setPackage("com.google.android.apps.maps")
+                startActivity(intent)
+                true
+            } else -> super.onOptionsItemSelected(item)
+        }
+    }
+
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         binding.titleTextView.text = attraction.title
@@ -36,7 +57,6 @@ class DetailsFragment : BaseFragment() {
         binding.monthsToVisitTextView.text = attraction.months_to_visit
         binding.numberOfFactsTextView.text = "${attraction.facts.size} facts"
         binding.numberOfFactsTextView.setOnClickListener {
-
         }
     }
 
