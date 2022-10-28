@@ -25,7 +25,7 @@
         android:name="com.ksusha.travely.ui.fragments.DetailsFragment"
         android:label="Details"
         tools:layout="@layout/fragment_details">
-        <deepLink app:uri="https://www.google.com"/>
+        <deepLink app:uri="https://travely.travel.com/attraction/{attractionId}"/>
         <argument
             android:name="attractionId"
             app:argType="string" />

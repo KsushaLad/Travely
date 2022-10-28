@@ -1,34 +1,34 @@
 {
   "attractions": [
     {
-      "id": "687a58ab-1d73-4d4a-beae-68516b948fd7",
-      "title": "Sali",
+      "id": "1",
+      "title": "Оптимістична печера",
       "image_url":
-        "https://www.croatiaholidays.travel/storage/destinations/129311392_l-2_thumb_1150.jpg",
-      "description":  "Sali is a village and a municipality in Croatia in the Zadar County. Sali is a small town but still the largest on the island of Dugi otok. The total population of Sali is 1,698 inhabitants.",
+        "https://dovkola.media/wp-content/uploads/2020/04/1314x680px-Optymistychna_Cave_3.jpg",
+      "description":  "Оптимістичну печеру відкрили у 1966 році, знаходиться вона у Борщівському районі Тернопільської області неподалік села Королівка. Це найдовша гіпсова печера у світі: довжина — близько 260 км. Вона досі повністю не досліджена, в експедиції сюди приїжджають спелеологи з усього світу. Всередині печери лабіринти, багато мінеральних утворень (кристалів, сталактитів, геліктитів) та навіть підземні озера. Подивитись є на що. Потрапити на екскурсію та побачити усе на власні очі це цікаве місце може кожен охочий.",
       "location": {
         "latitude": "43.937887",
         "longitude": "15.163208"
       },
-      "months_to_visit": "June - September",
+      "months_to_visit": "Завжди",
       "facts": [
-        "Largest town on the island of Dugi Otok, though it is small enough for everyone to know each other.",
-        "It is a fishing village that hosts a traditional “festa” or festival every year to honor fishermen traditions, drawing in tourists from all over Europe.",
-        "The Dalmatian breed of dogs is from the same region of Croatia, known as “Dalmatia.”",
-        "Borders two beautiful national parks, Telascica and Kornati."
+        "Оптимістична печера є найдовшою гіпсовою печерою в Європі. Довжина її ходів становить 255 км, однак сама печера ще довше.",
+        "Оптимістична печера знаходиться в шарі гіпсу на двадцятиметровій глибині. Печера являє собою багатоярусну щільну мережу ходів, які грають роль лабіринту.",
+        "За більш ніж 50 років було проведено близько 170 досліджень, однак печера до сих залишається дослідженою не в повному обсязі.",
+        "Спелеологи відзначають надзвичайну красу печери. Тут є зали з кристалами, які блищать і мерехтять."
       ]
     },
     {
-      "id": "c95a98c4-ca5a-4cc6-a978-79099173de1c",
-      "title": "Zagreb",
+      "id": "2",
+      "title": "Тустань",
       "image_url":
-        "https://www.intrepidtravel.com/adventures/wp-content/uploads/2017/10/croatia_zagreb_night-city.jpg",
-      "description": "Zagreb, Croatia’s northwestern capital, is distinguished by its 18th- and 19th-century Austro-Hungarian architecture. At its center, Upper Town is the site of the Gothic, twin-spired Zagreb Cathedral and 13th-century St. Mark’s Church, with a colorfully tiled roof. Nearby is pedestrian-friendly Tkalčićeva Street, lined with outdoor cafes. Lower Town has the main square, Ban Jelačić, plus shops, museums and parks.",
+        "https://dovkola.media/wp-content/uploads/2020/04/2-1.jpg",
+      "description": "Тустань — наскельне місто-фортеця, яке було оборонним та адміністративним центром протягом 9-15 століть. Знаходиться Тустань неподалік села Урич у Сколівському районі Львівської області. Заснували місто племена хорватів, потім його завоювали поляки, а з кінця 16 століття Тустань почала занепадати та згодом залишились лише кам’яні основи фортеці. Завдяки дослідженням та археологічним розкопкам вченим вдалось відновити графічну реконструкцію фортеці з точністю майже 90%.",
       "location": {
         "latitude": "45.8150",
         "longitude": "15.9819"
       },
-      "months_to_visit": "All year",
+      "months_to_visit": "Весною - Восени",
       "facts": [
         "The capital of Croatia",
         "The Zagreb Cathedral is the tallest building in Croatia.",
@@ -37,12 +37,11 @@
       ]
     },
     {
-      "id": "6d322e54-ce63-4c46-96e8-28e1935585ca",
-      "title": "Zadar",
+      "id": "3",
+      "title": "Вухатий Камінь",
       "image_url":
-        "https://cdn.budgetyourtrip.com/images/photos/articles/croatia_zadar.jpg"
-      ,
-      "description": "Zadar, a city on Croatia’s Dalmatian coast, is known for the Roman and Venetian ruins of its peninsular Old Town. There are several Venetian gates in the city walls. Surrounding the Roman-era Forum is 11th-century St. Mary’s Convent, with religious art dating to the 8th century. There’s also the grand, 12th-century St. Anastasia’s Cathedral and the round, 9th-century pre-Romanesque Church of St. Donatus.",
+        "https://dovkola.media/wp-content/uploads/2020/04/0_5d2d5f4ae3143.png",
+      "description": "Вухатий Камінь — це мальовнича гора у Карпатах у масиві Чорногори, що знаходиться у Верховинському районі Івано-Франківської області, висота — 1864 м над рівнем моря. Гора цікава тим, що на вершині є скелі чудернацької форми — улюблене місце для перепочинку та фотографій усіх туристів. А ще з Вухатого Каменя відкривається неймовірно гарний краєвид на Карпати. Через гору проходить маршрут з села Дземброня на вершину Чорногірського хребта, також через Вухатий Камінь можна пройти на гору Піп Іван. Ще одна атракція — Дзембронські водоспади, які знаходяться на північно-східному схилі гори.",
       "location": {
         "latitude": "44.1194",
         "longitude": "15.2314"
@@ -55,12 +54,10 @@
       ]
     },
     {
-      "id": "0ec338ff-df52-4723-89ac-a987b2bc5267",
-      "title": "Plitvice Lakes National Park",
-      "image_url":
-        "https://i1.wp.com/www.gourmetroaming.com/wp-content/uploads/2017/10/plitvice-lakes-national-park.jpg"
-      ,
-      "description": "Plitviče Lakes National Park is a 295-sq.-km forest reserve in central Croatia. It's known for a chain of 16 terraced lakes, joined by waterfalls, that extend into a limestone canyon. Walkways and hiking trails wind around and across the water, and an electric boat links the 12 upper and 4 lower lakes. The latter are the site of Veliki Slap, a 78m-high waterfall.",
+      "id": "4",
+      "title": "Скелі Довбуша",
+      "image_url": "https://dovkola.media/wp-content/uploads/2020/04/Polianyts-kyy-_rehional-nyy-_park._Skeli_Dovbusha._Vyd_z_holovnoi-_skeli.jpg",
+      "description": "Скелі Довбуша — надзвичайно красивий скельно-печерний комплекс на висоті 668 метрів розташований неподалік від села Бубнища в Івано-Франківській області. Скельні виступи утворились тут приблизно 70 мільйонів років назад, їх висота сягає 80 метрів, ширина — 200 м, довжина — майже 1 кілометр. У 17-18 столітті у скелях створили табір опришки (народні повстанці), тут досі залишились сліди рукотворних печер, у яких вони жили. Назва також походить ще з тих часів — Олекса Довбуш був ватажком опришків у Карпатах. Зараз Скелі Довбуша популярне туристичне місце. А ще це улюблене місце скелелазів, тут вони регулярно проводять свої змагання.",
       "location": {
         "latitude": "44.8654",
         "longitude": "15.5820"
@@ -74,12 +71,10 @@
       ]
     },
     {
-      "id": "b9dadbc9-89e4-4b16-9589-78297fb225a7",
-      "title": "Kornati National Park",
-      "image_url":
-        "https://www.sibenik-tourism.hr/upload/lokacije/2018/06/2018-06-27/14/nationalparkkornatiexcursionsprivatetoursromeoandjuliettravelagency.jpg"
-      ,
-      "description": "Kornat is an island in the Croatian part of the Adriatic Sea, in central Dalmatia. With an area of 32.44 km² it is the 16th largest island in Croatia and the largest island in the eponymous Kornati islands archipelago.",
+      "id": "5",
+      "title": "Бакота",
+      "image_url": "https://dovkola.media/wp-content/uploads/2020/04/RtayO.jpg",
+      "description": "Село Бакота затопили під час будівництва Дністровської ГЕС, а на його місці утворилась Бакотська затока, яка приваблює все більше туристів завдяки неймовірно гарним краєвидам. Бакоту називають місцем сили: археологічні розкопки свідчать, що у цих місцях колись було багато язичницьких храмів, святилищ та кургани з жіночими похованнями. Бакота знаходиться на території Національного природного парку «Подільські Товтри», туристичної інфраструктури тут поки що немає. ",
       "location": {
         "latitude": "43.8707",
         "longitude": "15.2324"
@@ -93,12 +88,10 @@
       ]
     },
     {
-      "id": "a879072e-4f36-489c-911b-3cc0a8c27406",
-      "title": "Dubrovnik",
-      "image_url":
-        "https://i.dailymail.co.uk/1s/2019/08/31/13/17909778-0-image-a-8_1567255695004.jpg"
-     ,
-      "description": "Dubrovnik is a city in southern Croatia fronting the Adriatic Sea. It's known for its distinctive Old Town, encircled with massive stone walls completed in the 16th century. Its well-preserved buildings range from baroque St. Blaise Church to Renaissance Sponza Palace and Gothic Rector’s Palace, now a history museum. Paved with limestone, the pedestrianized Stradun (or Placa) is lined with shops and restaurants.",
+      "id": "6",
+      "title": "Дністровський каньйон",
+      "image_url": "https://dovkola.media/wp-content/uploads/2020/04/5e98506f354b8285997176-1.jpg",
+      "description": "Дністровський каньйон знаходиться одразу у чотирьох областях, це найдовший каньйон в Україні — довжина 250 км. Усі знають його в основному за оглядовим майданчиком на Заліщики: село знаходиться на півострові, а по колу з трьох сторін його омиває Дністер. Але це не єдине цікаве місце України, яке варто подивитись у каньйоні. Навколо річки є мішані та соснові ліси, кілька природних заповідників та дуже давня пам’ятка природи — скелі девонського геологічного періоду, вік яких понад 400 мільйонів років. У Дністрі живе понад 40 видів риб, на території каньйону багато рідкісних видів комах. Особливої уваги вартий Джуринський водоспад, що знаходиться на річці Джурин у Заліщицькому районі Тернопільської області. Висота водоспаду 16 м, це найбільший не гірський водоспад в Україні. Ще одна популярна туристична розвага у каньйони — сплав по Дністру, підійде і початківцям, і професіоналам.",
       "location": {
         "latitude": "42.6507",
         "longitude": "18.0944"
@@ -111,12 +104,10 @@
       ]
     },
     {
-      "id": "d416bff0-e92c-44c5-aae3-52109dd17fbc",
-      "title": "Split",
-      "image_url":
-        "https://cdn.tourcms.com/a/11676/730/1/default.jpg"
-    ,
-      "description": "Split is Croatia's second-largest city and the largest city in the Dalmatia region. It lies on the eastern shore of the Adriatic Sea and is spread over a central peninsula and its surroundings.",
+      "id": "7",
+      "title": "Актівський каньйон",
+      "image_url": "https://dovkola.media/wp-content/uploads/2020/04/01.jpg",
+      "description": "Актівський каньйон — природний комплекс з гранітних скель та валунів площею 250 гектарів, частина національного парку «Бузький Гард» та зовсім нетипова природна зона для українського степу. Це місце називають українським Гранд-Каньйоном, пейзажі тут гарні і незвичайні: річка з містичною назвою Мертвовод протікає серед вузьких ущелин та скель, висота яких місцями досягає 50 метрів (як двадцятиповерховий будинок).",
       "location": {
         "latitude": "43.5081",
         "longitude": "16.4402"
