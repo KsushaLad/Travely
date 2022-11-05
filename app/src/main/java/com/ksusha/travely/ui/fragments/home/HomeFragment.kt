@@ -6,6 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.RecyclerView
+import com.ksusha.travely.R
 import com.ksusha.travely.databinding.FragmentHomeBinding
 import com.ksusha.travely.ui.fragments.BaseFragment
 
@@ -27,14 +28,16 @@ class HomeFragment : BaseFragment(){
         super.onViewCreated(view, savedInstanceState)
         navController.navigateUp()
         val homeAdapter = HomeFragmentAdapter { attractionId ->
-            val navDirections = HomeFragmentDirections.actionHomeFragmentToDetailsFragment(attractionId)
-            navController.navigate(navDirections)
+            activityViewModel.attractionSelected(attractionId)
+            navController.navigate(R.id.action_homeFragment_to_detailsFragment)
         }
 
         binding.recyclerView.adapter = homeAdapter
         binding.recyclerView.addItemDecoration(DividerItemDecoration(requireActivity(), RecyclerView.VERTICAL))
-        homeAdapter.setData(attractions)
 
+        activityViewModel.attractionListLiveData.observe(viewLifecycleOwner){ attractions ->
+            homeAdapter.setData(attractions)
+        }
     }
 
     override fun onDestroyView() {
