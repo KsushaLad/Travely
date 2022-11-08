@@ -6,6 +6,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.ksusha.travely.R
 import com.ksusha.travely.data.Attraction
 import com.ksusha.travely.databinding.ViewHolderAttractionBinding
+import com.ksusha.travely.ui.epoxy.ViewBindingKotlinModel
 import com.squareup.picasso.Picasso
 
 class HomeFragmentAdapter(private val onClickedCallback: (String) -> Unit) : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
@@ -36,6 +37,20 @@ class HomeFragmentAdapter(private val onClickedCallback: (String) -> Unit) : Rec
         private val binding = ViewHolderAttractionBinding.bind(itemView)
 
         fun onBind(attraction: Attraction, onClicked: (String) -> Unit) = with(binding){
+            titleTextView.text = attraction.title
+            Picasso.get().load(attraction.image_url).into(headerImageView)
+            monthsToVisitTextView.text = attraction.months_to_visit
+            item.setOnClickListener {
+                onClicked(attraction.id)
+            }
+        }
+    }
+
+    data class AttractionEpoxyModel(
+        val attraction: Attraction,
+        val onClicked: (String) -> Unit
+    ) : ViewBindingKotlinModel<ViewHolderAttractionBinding>(R.layout.view_holder_attraction) {
+        override fun ViewHolderAttractionBinding.bind() {
             titleTextView.text = attraction.title
             Picasso.get().load(attraction.image_url).into(headerImageView)
             monthsToVisitTextView.text = attraction.months_to_visit
