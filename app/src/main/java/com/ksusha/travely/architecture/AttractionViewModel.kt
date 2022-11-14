@@ -8,7 +8,7 @@ import com.ksusha.travely.data.Attraction
 class AttractionViewModel : ViewModel() {
 
     private val repository = AttractionRepository()
-    val attractionListLiveData = MutableLiveData<List<Attraction>>() //HomeFragment
+    val attractionListLiveData = MutableLiveData<ArrayList<Attraction>>() //HomeFragment
     val selectedAttractionLiveData = MutableLiveData<Attraction>() //DetailsFragment
 
     fun initViewModel(context: Context){
