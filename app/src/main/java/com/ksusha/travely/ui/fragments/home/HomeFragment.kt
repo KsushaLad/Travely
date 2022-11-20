@@ -35,6 +35,7 @@ class HomeFragment : BaseFragment(){
         binding.recyclerView.setController(epoxyController)
         binding.recyclerView.addItemDecoration(DividerItemDecoration(requireActivity(), RecyclerView.VERTICAL))
 
+        epoxyController.isLoading = true
         activityViewModel.attractionListLiveData.observe(viewLifecycleOwner){ attractions ->
             epoxyController.attractions = attractions
         }

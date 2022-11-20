@@ -4,6 +4,7 @@ import com.airbnb.epoxy.EpoxyController
 import com.ksusha.travely.R
 import com.ksusha.travely.data.Attraction
 import com.ksusha.travely.databinding.ViewHolderAttractionBinding
+import com.ksusha.travely.ui.epoxy.LoadingEpoxyModel
 import com.ksusha.travely.ui.epoxy.ViewBindingKotlinModel
 import com.squareup.picasso.Picasso
 
@@ -40,6 +41,7 @@ class HomeFragmentController(private val onClickedCallback: (String) -> Unit) : 
 
     override fun buildModels() {
         if (isLoading){
+            LoadingEpoxyModel().id("loading_state").addTo(this)
             return
         }
         if (attractions.isEmpty()){
@@ -49,5 +51,4 @@ class HomeFragmentController(private val onClickedCallback: (String) -> Unit) : 
             AttractionEpoxyModel(it, onClickedCallback).id(it.id).addTo(this)
         }
     }
-
 }
